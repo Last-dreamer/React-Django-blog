@@ -1,0 +1,195 @@
+.detail-container {
+  padding: 0 11em;
+}
+
+.detail-container .main-cover .image {
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.detail-container .main-cover .image img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 70vh;
+}
+
+.blogDetailContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: initial;
+      -ms-flex-align: initial;
+          align-items: initial;
+  -webkit-box-pack: initial;
+      -ms-flex-pack: initial;
+          justify-content: initial;
+}
+
+.blogDetailContainer .detail {
+  width: 70%;
+}
+
+.blogDetailContainer .detail .author {
+  margin-top: -10px;
+  color: gray;
+}
+
+.blogDetailContainer .detail .content {
+  height: calc(100vh - -1020px);
+  overflow: hidden;
+}
+
+.blogDetailContainer .detail .last-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.blogDetailContainer .detail .last-part a {
+  background-color: #ec5c19;
+  color: white;
+  padding: 10px;
+  margin: 20px 10% 0 10%;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.blogDetailContainer .detail .comment-comp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.blogDetailContainer .detail .comment-comp h3 {
+  margin-top: 40px;
+}
+
+.blogDetailContainer .detail .comment-comp input {
+  width: 90%;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  border: none;
+  border-bottom: 2px solid #000000;
+}
+
+.blogDetailContainer .detail .comment-comp input::-webkit-input-placeholder {
+  color: orangered;
+}
+
+.blogDetailContainer .detail .comment-comp input:-ms-input-placeholder {
+  color: orangered;
+}
+
+.blogDetailContainer .detail .comment-comp input::-ms-input-placeholder {
+  color: orangered;
+}
+
+.blogDetailContainer .detail .comment-comp input::placeholder {
+  color: orangered;
+}
+
+.blogDetailContainer .detail .comment-comp textarea {
+  width: 90%;
+  margin: 10px 5px;
+  padding: 20px 30px;
+  border: 2px solid #000000;
+}
+
+.blogDetailContainer .detail .comment-comp button {
+  margin: 10px;
+  padding: 10px 20px;
+  color: aliceblue;
+  border-radius: 10px;
+  background-color: #ec5c19;
+}
+
+.blogDetailContainer .card {
+  width: 30%;
+  margin-top: 20px;
+}
+
+.blogDetailContainer .card .blogExtras {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: initial;
+      -ms-flex-align: initial;
+          align-items: initial;
+  -webkit-box-pack: initial;
+      -ms-flex-pack: initial;
+          justify-content: initial;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.blogDetailContainer .card .blogExtras .related_blogs {
+  color: #ec5c19;
+  font-weight: bolder;
+}
+
+.blogDetailContainer .card .blogExtras .blogImage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: initial;
+      -ms-flex-align: initial;
+          align-items: initial;
+  -webkit-box-pack: initial;
+      -ms-flex-pack: initial;
+          justify-content: initial;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(61, 61, 60, 0.1);
+          box-shadow: 5px 5px 15px 5px rgba(61, 61, 60, 0.1);
+  margin-top: 20px;
+}
+
+.blogDetailContainer .card .blogExtras .blogImage img {
+  width: 40%;
+}
+
+.blogDetailContainer .card .blogExtras .blogImage .blogContent {
+  padding: 0 10px;
+}
+
+.blogDetailContainer .card .blogExtras .blogImage .blogContent .blogTitle {
+  padding: 10px;
+  font-size: 23px;
+  color: orangered;
+}
+
+.blogDetailContainer .card .blogExtras .blogImage .blogContent button {
+  font-size: 16px;
+  color: white;
+  background-color: #ec5c19;
+  border-radius: 4px;
+  padding: 1% 10%;
+}
+
+.blogDetailContainer .card .blogExtras .blogImage .blogContent .blogFooter {
+  padding: 20px 0 0 0;
+  color: #999999;
+}
+
+.blogDetailContainer .card .blogExtras .blogImage:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+/*# sourceMappingURL=detail.css.map */

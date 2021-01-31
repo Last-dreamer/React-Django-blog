@@ -1,0 +1,30 @@
+
+.container {
+   h3 {
+     margin-left:10px;
+   }
+
+
+}
+
+
+.cards {
+    background-color: white;
+    padding: 20px 30px;
+    margin: 20px 10px;
+    border: 1px solid rgba(0,0,0,0.2);
+    display: flex;
+    align-items: start;
+    justify-content: initial;
+    flex-direction: column;
+    z-index: -1;
+
+
+    .commentAuthor {
+        color: lighten($color: #000000, $amount: 40%);
+        padding-right: 10%;
+        width: 100%;
+        text-align: end;
+    }
+}
+
